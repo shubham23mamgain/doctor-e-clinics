@@ -1,0 +1,41 @@
+.messageType__upper{
+    display:flex;
+    align-items: center;
+}
+
+.messageType__upper > h5{
+    margin-right: 10px;
+}
+.messageType__upper > .MuiSvgIcon-root{
+    color:rgb(82, 221, 152);
+}
+
+.messageType__lower > button{
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.messageType__lower > button:hover{
+    background-color: black;
+    color: lightgrey;
+}
+.messageType__lower__inside > button:hover {
+    background-color: black;
+    color: lightgrey;
+}
+
+.messageType__lower__inside{
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-left: 10px;
+    width:70px;
+}
+
+.text__btn{
+    background-color: lightgrey !important;
+    border-radius: 10px !important;
+    margin-left: 10px;
+    text-transform: inherit !important;
+
+}
